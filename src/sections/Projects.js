@@ -252,13 +252,6 @@ const Projects = () => {
                     bidirectional communication between users.
                   </span>
                 </li>
-                <li>
-                  <TbPointFilled />
-                  <span>
-                    Used <strong>bcrypt</strong> for secure password hashing and
-                    authentication.
-                  </span>
-                </li>
               </ul>
             </div>
           </div>
@@ -272,7 +265,7 @@ const Projects = () => {
 };
 
 const Container = styled.div`
-  height: 80vh;
+  height: auto;
   max-width: 100%;
   background-color: black;
   box-sizing: border-box;
