@@ -16,7 +16,10 @@ const Hero = () => {
         <img src={image} alt="design-image" />
       </div>
       <div className="simple">
-        <p>we will do it later</p>
+        <p>
+          "I specialize in building dynamic and scalable web applications,
+          crafting elegant UI/UX, and solving complex backend problems."
+        </p>
       </div>
     </Container>
   );
@@ -96,7 +99,11 @@ const Container = styled.div`
       }
     }
     .simple {
+      color: rgb(244, 244, 219);
       display: block;
+      font-style: italic;
+      font-size: 14px;
+      text-align: center;
     }
   }
 `;

@@ -174,45 +174,93 @@ const Projects = () => {
             </p>
           </div>
           <div className="project">
-            <div className="project-header">
-              <h3>Plan Management System</h3>
+            <h3 style={{ color: "rgb(244, 244, 219)" }}>Personal Projects</h3>
+            <div className="project-1">
+              <h4 style={{ color: "rgb(244, 244, 219)" }}>
+                E-commerce Platform
+              </h4>
               <p>
-                An application designed to make managing customer plans simple
-                and efficient, providing the management team with clear insights
-                and effective tools to handle plans effortlessly.
+                A full-stack e-commerce platform built using the MERN stack.
               </p>
+              <ul>
+                <li>
+                  <TbPointFilled />
+                  <span>
+                    Implemented Context API for state management across the
+                    application.
+                  </span>
+                </li>
+                <li>
+                  <TbPointFilled />
+                  <span>
+                    Designed and integrated RESTful APIs for data communication
+                    between the frontend and backend.
+                  </span>
+                </li>
+                <li>
+                  <TbPointFilled />
+                  <span>
+                    Developed user authentication and authorization for secure
+                    transactions.
+                  </span>
+                </li>
+              </ul>
             </div>
             <hr />
-            <ul>
-              <li>
-                <TbPointFilled />
-                <span>
-                  Developed features for creating, updating, and managing
-                  customer plans smoothly and accurately.
-                </span>
-              </li>
-              <li>
-                <TbPointFilled />
-                <span>
-                  Designed interactive dashboards to provide detailed insights
-                  into each plan, including metrics such as the number of
-                  assigned customers, usage trends, and overall performance.
-                </span>
-              </li>
-              <li>
-                <TbPointFilled />
-                <span>
-                  Provided management teams with intuitive features to monitor,
-                  analyze, and enhance plan performance with ease.
-                </span>
-              </li>
-            </ul>
-            <p>
-              The purpose of this application is to provide insights into the
-              available plans, track how many users are assigned to each plan,
-              and offer detailed information to help manage and optimize plan
-              allocations effectively.
-            </p>
+            <div className="project-2">
+              <h4 style={{ color: "rgb(244, 244, 219)" }}>YouTube Clone</h4>
+              <p style={{ color: "rgb(244, 244, 219)" }}>
+                A web application replicating the core features of YouTube.
+              </p>
+              <ul>
+                <li>
+                  <TbPointFilled />
+                  <span>
+                    Utilized React for an interactive and responsive UI.
+                  </span>
+                </li>
+                <li>
+                  <TbPointFilled />
+                  <span>
+                    Integrated YouTube Google APIs to fetch and display video
+                    content dynamically.
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <hr />
+            <div className="project-3">
+              <h4 style={{ color: "rgb(244, 244, 219)" }}>
+                Real-Time Chat App
+              </h4>
+              <p style={{ color: "rgb(244, 244, 219)" }}>
+                A real-time chat application with instant messaging and user
+                authentication.
+              </p>
+              <ul>
+                <li>
+                  <TbPointFilled />
+                  <span>
+                    Built with <strong>MERN Stack</strong> (MongoDB, Express,
+                    React, Node.js) for a seamless full-stack experience.
+                  </span>
+                </li>
+                <li>
+                  <TbPointFilled />
+                  <span>
+                    Implemented <strong>Socket.io</strong> for real-time
+                    bidirectional communication between users.
+                  </span>
+                </li>
+                <li>
+                  <TbPointFilled />
+                  <span>
+                    Used <strong>bcrypt</strong> for secure password hashing and
+                    authentication.
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <button className="scroll-btn right" onClick={scrollRight}>

@@ -4,7 +4,6 @@ import { FaAddressCard } from "react-icons/fa";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { ImProfile } from "react-icons/im";
-
 import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
@@ -53,17 +52,19 @@ const Contact = () => {
             </div>
             <div className="sub">
               <h5>DOWNLOAD RESUME</h5>
+
               <a
-                href="images/my_latest_2025.pdf"
+                href="/my_latest_2025.pdf"
                 download="My_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
-                  color: "rgb(100  ,100 ,100)",
+                  color: "rgb(100, 100, 100)",
                   textDecoration: "none",
                   textAlign: "center",
-                  marginLeft: "20px",
                 }}
               >
-                resume link
+                Download Resume
               </a>
             </div>
           </div>
@@ -173,6 +174,7 @@ const Container = styled.div`
     max-width: 800px;
     padding: 5px 5px;
     .top-head {
+      margin-top: 40px;
       max-width: 100%;
       hr {
         margin-left: 80px;

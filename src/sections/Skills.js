@@ -243,7 +243,7 @@ const Container = styled.div`
     }
   }
   @media screen and (max-width: 768px) {
-    height: 130vh;
+    height: auto;
     max-width: 800px;
     padding: 5px 5px;
     .top-head {
@@ -258,14 +258,20 @@ const Container = styled.div`
       }
     }
     .skills-div {
-      height: 120vh;
+      height: auto;
       display: flex;
       flex-direction: column;
+      align-items: center;
+      gap: 20px;
       .inner-div {
+        width: 100%;
         padding: 5px 0px;
         flex-direction: column;
+        align-items: center;
+        text-align: center;
         h4 {
           width: 100%;
+          font-size: 18px;
         }
         ul {
           justify-content: space-evenly;
