@@ -54,7 +54,7 @@ const Contact = () => {
               <h5>DOWNLOAD RESUME</h5>
 
               <a
-                href="/my_latest_2025.pdf"
+                href="/AVINASH_GUNTUBOINA_FEB_2025"
                 download="My_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
